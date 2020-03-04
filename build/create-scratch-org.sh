@@ -5,7 +5,7 @@ echo $SFDC_SERVER_KEY | base64 -d > keys/server.key
 
 # Authenticate to salesforce
 echo "Authenticating..."
-sfdx force:auth:jwt:grant --clientid $SFDC_PROD_CLIENTID --jwtkeyfile keys/server.key --username $SFDC_PROD_USER --setdefaultdevhubusername -a DevHub
+sfdx force:auth:jwt:grant --clientid 3MVG9xB_D1giir9o89Jg3P4layswT.MbgcqIjAfaBSDbdjI7GNf0TkXfnOEbknSo9Sq5Gt4ySS3FIwZAzTyxC --jwtkeyfile keys/server.key --username vickyarthur74@gmail.com --setdefaultdevhubusername -a DevHub
 
 #Create a scratch org
 echo "Creating the Scratch Org..."
